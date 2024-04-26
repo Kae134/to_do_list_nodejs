@@ -4,6 +4,7 @@
   "description": "Une to do list",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Kae134/to_do_list_nodejs/issues"
   },
-  "homepage": "https://github.com/Kae134/to_do_list_nodejs#readme"
+  "homepage": "https://github.com/Kae134/to_do_list_nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
 }
